@@ -10,7 +10,6 @@
 		42D120D81A0F76460043F4B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D120D71A0F76460043F4B8 /* main.m */; };
 		42D120DB1A0F76460043F4B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D120DA1A0F76460043F4B8 /* AppDelegate.m */; };
 		42D120DE1A0F76460043F4B8 /* VITAcademics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42D120DC1A0F76460043F4B8 /* VITAcademics.xcdatamodeld */; };
-		42D120E11A0F76460043F4B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D120E01A0F76460043F4B8 /* ViewController.m */; };
 		42D120E41A0F76460043F4B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D120E21A0F76460043F4B8 /* Main.storyboard */; };
 		42D120E61A0F76460043F4B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D120E51A0F76460043F4B8 /* Images.xcassets */; };
 		42D120E91A0F76460043F4B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D120E71A0F76460043F4B8 /* LaunchScreen.xib */; };
@@ -34,8 +33,6 @@
 		42D120D91A0F76460043F4B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42D120DA1A0F76460043F4B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		42D120DD1A0F76460043F4B8 /* VITAcademics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VITAcademics.xcdatamodel; sourceTree = "<group>"; };
-		42D120DF1A0F76460043F4B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42D120E01A0F76460043F4B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42D120E31A0F76460043F4B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42D120E51A0F76460043F4B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42D120E81A0F76460043F4B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,14 +80,9 @@
 		42D120D41A0F76460043F4B8 /* VITAcademics */ = {
 			isa = PBXGroup;
 			children = (
-				42D120D91A0F76460043F4B8 /* AppDelegate.h */,
-				42D120DA1A0F76460043F4B8 /* AppDelegate.m */,
-				42D120DF1A0F76460043F4B8 /* ViewController.h */,
-				42D120E01A0F76460043F4B8 /* ViewController.m */,
 				42D120E21A0F76460043F4B8 /* Main.storyboard */,
-				42D120E51A0F76460043F4B8 /* Images.xcassets */,
-				42D120E71A0F76460043F4B8 /* LaunchScreen.xib */,
-				42D120DC1A0F76460043F4B8 /* VITAcademics.xcdatamodeld */,
+				42D120FF1A0F7DEF0043F4B8 /* Core Data */,
+				42D120FE1A0F7DDD0043F4B8 /* AddDelegate */,
 				42D120D51A0F76460043F4B8 /* Supporting Files */,
 			);
 			path = VITAcademics;
@@ -99,6 +91,8 @@
 		42D120D51A0F76460043F4B8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				42D120E51A0F76460043F4B8 /* Images.xcassets */,
+				42D120E71A0F76460043F4B8 /* LaunchScreen.xib */,
 				42D120D61A0F76460043F4B8 /* Info.plist */,
 				42D120D71A0F76460043F4B8 /* main.m */,
 			);
@@ -120,6 +114,23 @@
 				42D120F31A0F76460043F4B8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42D120FE1A0F7DDD0043F4B8 /* AddDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				42D120D91A0F76460043F4B8 /* AppDelegate.h */,
+				42D120DA1A0F76460043F4B8 /* AppDelegate.m */,
+			);
+			name = AddDelegate;
+			sourceTree = "<group>";
+		};
+		42D120FF1A0F7DEF0043F4B8 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				42D120DC1A0F76460043F4B8 /* VITAcademics.xcdatamodeld */,
+			);
+			name = "Core Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +235,6 @@
 			files = (
 				42D120DB1A0F76460043F4B8 /* AppDelegate.m in Sources */,
 				42D120DE1A0F76460043F4B8 /* VITAcademics.xcdatamodeld in Sources */,
-				42D120E11A0F76460043F4B8 /* ViewController.m in Sources */,
 				42D120D81A0F76460043F4B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +426,7 @@
 				42D120FA1A0F76460043F4B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42D120FB1A0F76460043F4B8 /* Build configuration list for PBXNativeTarget "VITAcademicsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				42D120FD1A0F76460043F4B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
