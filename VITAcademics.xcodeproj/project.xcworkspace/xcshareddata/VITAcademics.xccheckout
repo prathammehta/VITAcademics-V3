@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12F0ED0D-C474-4EC8-8EB8-72179DB2AD2F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VITAcademics</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1980C6E7479770BA19A8FD393EB8258ECB211280</key>
+		<string>https://github.com/prathammehta/VITAcademics-V3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VITAcademics.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1980C6E7479770BA19A8FD393EB8258ECB211280</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/prathammehta/VITAcademics-V3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1980C6E7479770BA19A8FD393EB8258ECB211280</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1980C6E7479770BA19A8FD393EB8258ECB211280</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1980C6E7479770BA19A8FD393EB8258ECB211280</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VITAcademics-V3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
