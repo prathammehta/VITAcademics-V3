@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main Container View Controller-->
         <scene sceneID="tsl-RI-H5z">
             <objects>
-                <viewController storyboardIdentifier="mainContainerViewController" id="YXK-1v-b7q" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainContainerViewController" id="YXK-1v-b7q" customClass="MainContainerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7Oi-7F-GP0"/>
                         <viewControllerLayoutGuide type="bottom" id="3no-kX-Tjo"/>
@@ -80,7 +80,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vhq-nM-sea" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="1223"/>
+            <point key="canvasLocation" x="165" y="1223"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="5Yl-zU-47j">

@@ -14,6 +14,10 @@
 		42D120E61A0F76460043F4B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D120E51A0F76460043F4B8 /* Images.xcassets */; };
 		42D120E91A0F76460043F4B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42D120E71A0F76460043F4B8 /* LaunchScreen.xib */; };
 		42D120F51A0F76460043F4B8 /* VITAcademicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D120F41A0F76460043F4B8 /* VITAcademicsTests.m */; };
+		42D121021A0F7E930043F4B8 /* BlurringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D121011A0F7E930043F4B8 /* BlurringView.m */; };
+		42D121061A0F80670043F4B8 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D121051A0F80670043F4B8 /* UIImage+ImageEffects.m */; };
+		42D121091A0F81840043F4B8 /* MainContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D121081A0F81840043F4B8 /* MainContainerViewController.m */; };
+		42D1210B1A0F82670043F4B8 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42D1210A1A0F82670043F4B8 /* test.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,13 @@
 		42D120EE1A0F76460043F4B8 /* VITAcademicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VITAcademicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42D120F31A0F76460043F4B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42D120F41A0F76460043F4B8 /* VITAcademicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VITAcademicsTests.m; sourceTree = "<group>"; };
+		42D121001A0F7E930043F4B8 /* BlurringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurringView.h; sourceTree = "<group>"; };
+		42D121011A0F7E930043F4B8 /* BlurringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurringView.m; sourceTree = "<group>"; };
+		42D121041A0F80670043F4B8 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		42D121051A0F80670043F4B8 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		42D121071A0F81840043F4B8 /* MainContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContainerViewController.h; sourceTree = "<group>"; };
+		42D121081A0F81840043F4B8 /* MainContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContainerViewController.m; sourceTree = "<group>"; };
+		42D1210A1A0F82670043F4B8 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				42D120E21A0F76460043F4B8 /* Main.storyboard */,
+				42D121071A0F81840043F4B8 /* MainContainerViewController.h */,
+				42D121081A0F81840043F4B8 /* MainContainerViewController.m */,
+				42D1210A1A0F82670043F4B8 /* test.jpg */,
+				42D121031A0F7E990043F4B8 /* Views */,
 				42D120FF1A0F7DEF0043F4B8 /* Core Data */,
 				42D120FE1A0F7DDD0043F4B8 /* AddDelegate */,
 				42D120D51A0F76460043F4B8 /* Supporting Files */,
@@ -131,6 +146,17 @@
 				42D120DC1A0F76460043F4B8 /* VITAcademics.xcdatamodeld */,
 			);
 			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		42D121031A0F7E990043F4B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42D121001A0F7E930043F4B8 /* BlurringView.h */,
+				42D121011A0F7E930043F4B8 /* BlurringView.m */,
+				42D121041A0F80670043F4B8 /* UIImage+ImageEffects.h */,
+				42D121051A0F80670043F4B8 /* UIImage+ImageEffects.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D1210B1A0F82670043F4B8 /* test.jpg in Resources */,
 				42D120E41A0F76460043F4B8 /* Main.storyboard in Resources */,
 				42D120E91A0F76460043F4B8 /* LaunchScreen.xib in Resources */,
 				42D120E61A0F76460043F4B8 /* Images.xcassets in Resources */,
@@ -234,8 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				42D120DB1A0F76460043F4B8 /* AppDelegate.m in Sources */,
+				42D121061A0F80670043F4B8 /* UIImage+ImageEffects.m in Sources */,
+				42D121021A0F7E930043F4B8 /* BlurringView.m in Sources */,
 				42D120DE1A0F76460043F4B8 /* VITAcademics.xcdatamodeld in Sources */,
 				42D120D81A0F76460043F4B8 /* main.m in Sources */,
+				42D121091A0F81840043F4B8 /* MainContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
